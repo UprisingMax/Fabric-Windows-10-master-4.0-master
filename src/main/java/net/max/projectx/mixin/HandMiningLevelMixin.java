@@ -2,6 +2,8 @@ package net.max.projectx.mixin;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.AxeItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.tag.BlockTags;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -22,8 +24,9 @@ public class HandMiningLevelMixin {
                 || state.isIn(BlockTags.WOODEN_STAIRS)
                 || state.isIn(BlockTags.WOODEN_TRAPDOORS))
         {
-            // If the player's main hand is empty, prevent breaking the block
-            if (((PlayerEntity) (Object) this).getMainHandStack().isEmpty()) {
+            // Check if the player is holding an axe item in their main hand
+            ItemStack mainHandStack = ((PlayerEntity) (Object) this).getMainHandStack();
+            if (mainHandStack.isEmpty() || !(mainHandStack.getItem() instanceof AxeItem)) {
                 cir.setReturnValue(false);
             }
         }
