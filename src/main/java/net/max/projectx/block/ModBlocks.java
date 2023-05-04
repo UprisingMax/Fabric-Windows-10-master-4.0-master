@@ -3,14 +3,9 @@ package net.max.projectx.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.max.projectx.ProjectX;
-import net.max.projectx.block.custom.EggplantCropBlock;
-import net.max.projectx.block.custom.JumpyBlock;
-import net.max.projectx.block.custom.TanzaniteLampBlock;
+import net.max.projectx.block.custom.*;
 import net.max.projectx.item.ModItemGroup;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
-import net.minecraft.block.OreBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -87,7 +82,17 @@ public class ModBlocks {
     public static final Block BLACK_STEEL_BLOCK = registerBlock("black_steel_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.PROJECTX);
 
+    public static final Block BLUE_JAZZ_CROP = registerBlockWithoutItem("blue_jazz_crop",
+            new BlueJazzCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
 
+    public static final Block CAULIFLOWER_CROP = registerBlockWithoutItem("cauliflower_crop",
+            new CauliflowerCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+
+    public static final Block PARSNIP_CROP = registerBlockWithoutItem("parsnip_crop",
+            new ParsnipCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+
+    public static final Block COFFEEBEAN_CROP = registerBlockWithoutItem("coffeebean_crop",
+            new CoffeeBeanCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
 
 
     private static Block registerBlockWithoutItem(String name, Block block) {

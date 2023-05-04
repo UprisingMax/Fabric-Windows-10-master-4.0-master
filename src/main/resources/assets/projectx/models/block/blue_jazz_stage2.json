@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "projectx:block/blue_jazz_stage2"
+  }
+}

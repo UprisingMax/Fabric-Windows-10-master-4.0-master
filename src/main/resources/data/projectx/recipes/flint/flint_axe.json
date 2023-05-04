@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:flint"
+    },
+    "D": {
+      "item": "projectx:twine_bundle"
+    }
+  },
+  "pattern": [
+    "DB",
+    "# "
+  ],
+  "result": {
+    "item": "projectx:flint_axe"
+  }
+}

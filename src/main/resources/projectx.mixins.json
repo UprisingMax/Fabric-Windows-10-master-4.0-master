@@ -4,11 +4,9 @@
   "package": "net.max.projectx.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ModEntityDataSaverMixin",
     "HandMiningLevelMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

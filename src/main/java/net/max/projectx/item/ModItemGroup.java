@@ -12,4 +12,7 @@ public class ModItemGroup {
 
     public static final ItemGroup PROJECTX = FabricItemGroupBuilder.build(
             new Identifier(ProjectX.MOD_ID, "projectx"), () -> new ItemStack(ModItems.ADAMANTIUM_INGOT));
+
+    public static final ItemGroup STARDEW = FabricItemGroupBuilder.build(
+            new Identifier(ProjectX.MOD_ID, "stardew"), () -> new ItemStack(ModItems.BLUE_JAZZ));
 }

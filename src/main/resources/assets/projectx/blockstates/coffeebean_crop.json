@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "projectx:block/coffeebean_stage0"
+    },
+    "age=1": {
+      "model": "projectx:block/coffeebean_stage1"
+    },
+    "age=2": {
+      "model": "projectx:block/coffeebean_stage2"
+    },
+    "age=3": {
+      "model": "projectx:block/coffeebean_stage3"
+    },
+    "age=4": {
+    "model": "projectx:block/coffeebean_stage4"
+  },
+    "age=5": {
+      "model": "projectx:block/coffeebean_stage5"
+    },
+    "age=6": {
+      "model": "projectx:block/coffeebean_stage6"
+    },
+    "age=7": {
+      "model": "projectx:block/coffeebean_stage7"
+    },
+    "age=8": {
+      "model": "projectx:block/coffeebean_stage8"
+    },
+    "age=9": {
+      "model": "projectx:block/coffeebean_stage9"
+    },
+    "age=10": {
+      "model": "projectx:block/coffeebean_stage10"
+    }
+  }
+}

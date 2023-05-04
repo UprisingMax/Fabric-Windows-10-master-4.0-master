@@ -1,11 +1,8 @@
 package net.max.projectx;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.max.projectx.block.ModBlocks;
-import net.max.projectx.event.PlayerTickHandler;
 import net.max.projectx.item.ModItems;
-import net.max.projectx.networking.ModMessages;
 import net.max.projectx.painting.ModPaintings;
 import net.max.projectx.util.ModLootTableModifiers;
 import net.max.projectx.villager.ModVillagers;
@@ -36,9 +33,6 @@ public class ProjectX implements ModInitializer {
 		ModVillagers.registerTrades();
 
 		ModLootTableModifiers.modifyLootTables();
-		ModMessages.registerC2SPackets();
-
-		ServerTickEvents.START_SERVER_TICK.register(new PlayerTickHandler());
 
 	}
 }

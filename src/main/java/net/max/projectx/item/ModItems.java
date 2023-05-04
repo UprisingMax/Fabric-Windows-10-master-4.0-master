@@ -157,6 +157,34 @@ public class ModItems {
             new AxeItem(ModToolMaterial.FLINT, 1, -2.4f,
                     new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
 
+    public static final Item CAULIFLOWER = registerItem("cauliflower",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(5).saturationModifier(5f).build())));
+
+    public static final Item CAULIFLOWER_SEED = registerItem("cauliflower_seed",
+            new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item BLUE_JAZZ = registerItem("blue_jazz",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item BLUE_JAZZ_SEED = registerItem("blue_jazz_seed",
+            new AliasedBlockItem(ModBlocks.BLUE_JAZZ_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item PARSNIP = registerItem("parsnip",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item PARSNIP_SEED = registerItem("parsnip_seed",
+            new AliasedBlockItem(ModBlocks.PARSNIP_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item COFFEE_BEAN_SEED = registerItem("coffee_bean_seed",
+            new AliasedBlockItem(ModBlocks.COFFEEBEAN_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(ProjectX.MOD_ID, name), item);
     }

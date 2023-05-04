@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "projectx:block/cauliflower_stage5"
+  }
+}
