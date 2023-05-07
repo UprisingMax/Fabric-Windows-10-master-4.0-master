@@ -1,0 +1,7 @@
+{
+  "parent": "projectx:block/double_cross",
+  "render_type": "cutout",
+  "textures": {
+    "cross": "projectx:block/rhubarb_stage4"
+  }
+}

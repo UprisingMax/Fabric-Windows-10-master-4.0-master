@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "projectx:block/greenbean_stage0"
+    },
+    "age=1": {
+      "model": "projectx:block/greenbean_stage1"
+    },
+    "age=2": {
+      "model": "projectx:block/greenbean_stage2"
+    },
+    "age=3": {
+      "model": "projectx:block/greenbean_stage3"
+    },
+    "age=4": {
+      "model": "projectx:block/greenbean_stage4"
+    },
+    "age=5": {
+      "model": "projectx:block/greenbean_stage5"
+    },
+    "age=6": {
+      "model": "projectx:block/greenbean_stage6"
+    },
+    "age=7": {
+      "model": "projectx:block/greenbean_stage7"
+    },
+    "age=8": {
+      "model": "projectx:block/greenbean_stage8"
+    },
+    "age=9": {
+      "model": "projectx:block/greenbean_stage9"
+    },
+    "age=10": {
+      "model": "projectx:block/greenbean_stage10"
+    },
+    "age=11": {
+      "model": "projectx:block/greenbean_stage11"
+    },
+    "age=12": {
+      "model": "projectx:block/greenbean_stage12"
+    },
+    "age=13": {
+      "model": "projectx:block/greenbean_stage10"
+    }
+  }
+}

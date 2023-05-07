@@ -6,15 +6,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "projectx:blue_jazz"
+          "name": "projectx:potato"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "projectx:blue_jazz_crop",
+          "block": "projectx:potato_crop",
           "properties": {
-            "age": "5"
+            "age": "6"
           }
         },
         {

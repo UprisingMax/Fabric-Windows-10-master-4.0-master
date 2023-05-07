@@ -157,32 +157,80 @@ public class ModItems {
             new AxeItem(ModToolMaterial.FLINT, 1, -2.4f,
                     new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
 
-    public static final Item CAULIFLOWER = registerItem("cauliflower",
-            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
-                    .food(new FoodComponent.Builder().hunger(5).saturationModifier(5f).build())));
-
-    public static final Item CAULIFLOWER_SEED = registerItem("cauliflower_seed",
-            new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP,
-                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
-
     public static final Item BLUE_JAZZ = registerItem("blue_jazz",
             new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
                     .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
 
-    public static final Item BLUE_JAZZ_SEED = registerItem("blue_jazz_seed",
-            new AliasedBlockItem(ModBlocks.BLUE_JAZZ_CROP,
-                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+    public static final Item CAULIFLOWER = registerItem("cauliflower",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(5).saturationModifier(5f).build())));
 
     public static final Item PARSNIP = registerItem("parsnip",
             new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
                     .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
 
+    public static final Item GARLIC = registerItem("garlic",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item GREENBEAN = registerItem("green_bean",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item KALE = registerItem("kale",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item POTATO = registerItem("potato",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item RHUBARB = registerItem("rhubarb",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item STRAWBERRY = registerItem("strawberry",
+            new Item(new FabricItemSettings().group(ModItemGroup.STARDEW)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item COFFEE_BEAN_SEED = registerItem("coffee_bean_seed",
+            new AliasedBlockItem(ModBlocks.COFFEEBEAN_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item BLUE_JAZZ_SEED = registerItem("blue_jazz_seed",
+            new AliasedBlockItem(ModBlocks.BLUE_JAZZ_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item CAULIFLOWER_SEED = registerItem("cauliflower_seed",
+            new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
     public static final Item PARSNIP_SEED = registerItem("parsnip_seed",
             new AliasedBlockItem(ModBlocks.PARSNIP_CROP,
                     new FabricItemSettings().group(ModItemGroup.STARDEW)));
 
-    public static final Item COFFEE_BEAN_SEED = registerItem("coffee_bean_seed",
-            new AliasedBlockItem(ModBlocks.COFFEEBEAN_CROP,
+    public static final Item GARLIC_SEED = registerItem("garlic_seed",
+            new AliasedBlockItem(ModBlocks.GARLIC_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item GREENBEAN_SEED = registerItem("greenbean_seed",
+            new AliasedBlockItem(ModBlocks.GREENBEAN_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item KALE_SEED = registerItem("kale_seed",
+            new AliasedBlockItem(ModBlocks.KALE_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item POTATO_SEED = registerItem("potato_seed",
+            new AliasedBlockItem(ModBlocks.POTATO_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item RHUBARB_SEED = registerItem("rhubarb_seed",
+            new AliasedBlockItem(ModBlocks.RHUBARB_CROP,
+                    new FabricItemSettings().group(ModItemGroup.STARDEW)));
+
+    public static final Item STRAWBERRY_SEED = registerItem("strawberry_seed",
+            new AliasedBlockItem(ModBlocks.STRAWBERRY_CROP,
                     new FabricItemSettings().group(ModItemGroup.STARDEW)));
 
     private static Item registerItem(String name, Item item) {

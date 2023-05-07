@@ -83,17 +83,49 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.PROJECTX);
 
     public static final Block BLUE_JAZZ_CROP = registerBlockWithoutItem("blue_jazz_crop",
-            new BlueJazzCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+            new BlueJazzCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
 
     public static final Block CAULIFLOWER_CROP = registerBlockWithoutItem("cauliflower_crop",
-            new CauliflowerCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+            new CauliflowerCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
 
     public static final Block PARSNIP_CROP = registerBlockWithoutItem("parsnip_crop",
-            new ParsnipCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+            new ParsnipCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
 
     public static final Block COFFEEBEAN_CROP = registerBlockWithoutItem("coffeebean_crop",
-            new CoffeeBeanCropBlock(AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+            new CoffeeBeanCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
 
+    public static final Block GARLIC_CROP = registerBlockWithoutItem("garlic_crop",
+            new GarlicCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+
+    public static final Block GREENBEAN_CROP = registerBlockWithoutItem("greenbean_crop",
+            new GreenBeanCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+
+    public static final Block KALE_CROP = registerBlockWithoutItem("kale_crop",
+            new KaleCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+
+    public static final Block POTATO_CROP = registerBlockWithoutItem("potato_crop",
+            new PotatoCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+
+    public static final Block RHUBARB_CROP = registerBlockWithoutItem("rhubarb_crop",
+            new RhubarbCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+
+    public static final Block STRAWBERRY_CROP = registerBlockWithoutItem("strawberry_crop",
+            new StrawberryCropBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+
+
+    public static final Block GREENBEAN_CROP_TOP = registerBlockWithoutItem("greenbean_crop_top",
+            new GreenBeanCropTopBlock(AbstractBlock.Settings.of(Material.PLANT)
+                    .nonOpaque().noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
 
     private static Block registerBlockWithoutItem(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier(ProjectX.MOD_ID, name), block);

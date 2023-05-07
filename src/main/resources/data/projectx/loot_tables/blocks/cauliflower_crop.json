@@ -6,31 +6,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "projectx:cauliflower",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "projectx:cauliflower_crop",
-                  "properties": {
-                    "age": "5"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
+          "name": "projectx:cauliflower"
         }
       ],
       "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "projectx:cauliflower_crop",
+          "properties": {
+            "age": "5"
+          }
+        },
         {
           "condition": "minecraft:survives_explosion"
         }
@@ -38,3 +24,4 @@
     }
   ]
 }
+

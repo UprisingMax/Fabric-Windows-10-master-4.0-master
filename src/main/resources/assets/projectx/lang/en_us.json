@@ -67,12 +67,6 @@
   "itemGroup.projectx.projectx": "ProjectX Tab",
   "itemGroup.projectx.stardew": "Stardew Tab",
 
-  "key.category.projectx.tutorial": "ProjectX",
-  "key.projectx.drink_water": "Drink Water Key",
-
-  "message.projectx.drank_water": "Slurp!",
-  "message.projectx.no_water": "No Water around!",
-
   "item.projectx.blue_jazz_seed": "Blue Jazz Seeds",
   "item.projectx.blue_jazz": "Blue Jazz",
   "item.projectx.blue_jazz_pouch": "Blue Jazz Seeds",
@@ -80,6 +74,19 @@
   "item.projectx.cauliflower_seed": "Cauliflower Seeds",
   "item.projectx.parsnip": "Parsnip",
   "item.projectx.parsnip_seed": "Parsnip Seeds",
-  "item.projectx.coffee_bean_seed": "Coffee Bean"
+  "item.projectx.coffee_bean_seed": "Coffee Bean",
+  "item.projectx.garlic_seed": "Garlic Seeds",
+  "item.projectx.garlic": "Garlic",
+  "item.projectx.greenbean_seed": "Bean Starter",
+  "item.projectx.green_bean": "Green Bean",
+  "item.projectx.kale": "Kale",
+  "item.projectx.kale_seed": "Kale Seeds",
+  "item.projectx.potato": "Potato",
+  "item.projectx.potato_seed": "potato Seeds",
+  "item.projectx.rhubarb": "Rhubarb",
+  "item.projectx.rhubarb_seed": "Rhubarb Seeds",
+  "item.projectx.strawberry": "Strawberry",
+  "item.projectx.strawberry_seed": "Strawberry Seeds"
+
 
 }
